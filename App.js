@@ -1,15 +1,17 @@
 import React from 'react';
 
 import { View, Text, SafeAreaView, StyleSheet } from 'react-native';
+import StylingEx from './StylingEx';
 
 const App = () => {
-  return (
-    <SafeAreaView style={styles.safeArea}>
-      <View style={[styles.container, styles.pink]}>
-        <Text>Hello, world!</Text>
-      </View>
-    </SafeAreaView>
-  );
+  return <StylingEx />;
+  // return (
+  //   <SafeAreaView style={styles.safeArea}>
+  //     <View style={[styles.container, styles.pink]}>
+  //       <Text>Hello, world!</Text>
+  //     </View>
+  //   </SafeAreaView>
+  // );
 };
 
 const styles = StyleSheet.create({
