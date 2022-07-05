@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { View, Text, SafeAreaView, StyleSheet } from 'react-native';
-import StylingEx from './StylingEx';
+// import { View, Text, SafeAreaView, StyleSheet } from 'react-native';
+import StylingEx from './components/StylingEx';
 
 const App = () => {
   return <StylingEx />;
@@ -14,18 +14,18 @@ const App = () => {
   // );
 };
 
-const styles = StyleSheet.create({
-  pink: {
-    backgroundColor: 'pink',
-  },
-  safeArea: {
-    flex: 1,
-  },
-  container: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    flex: 1,
-  },
-});
+// const styles = StyleSheet.create({
+//   pink: {
+//     backgroundColor: 'pink',
+//   },
+//   safeArea: {
+//     flex: 1,
+//   },
+//   container: {
+//     alignItems: 'center',
+//     justifyContent: 'center',
+//     flex: 1,
+//   },
+// });
 
 export default App;
